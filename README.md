@@ -12,15 +12,15 @@
 En esta práctica he decidido utilizar tres cámaras estáticas dispuestas desde ángulos diferentes
 + Cámara principal
 
-![gif1](../Practica_1_II2122/img/Gif1.gif)  
+![gif1](./img/Gif1.gif)  
   
 + Cámara secundaria 1  
   
-![gif2](../Practica_1_II2122/img/Gif2.gif)
+![gif2](./img/Gif2.gif)
 
 + Cámara secundaria 2  
   
-![gif3](../Practica_1_II2122/img/Gif3.gif)
+![gif3](./img/Gif3.gif)
 
   NOTA: En las tres vistas podemos observar la ejecución de la escena y la ejecución de los scripts en la consola.  
 
@@ -37,27 +37,27 @@ En esta práctica he decidido utilizar tres cámaras estáticas dispuestas desde
 
 En este casos he utilizado un cubo y dos esferas las cuales se observan continuación:  
 
-![basicos](../Practica_1_II2122/img/basic.png)  
+![basicos](./img/basic.png)  
 
 
 + Objeto complejo de Standard Assets.
 
 Para este caso he utilizado dentro del Standard Assets el jet y el rollerball que observamos a continuación.
 
-![avion](../Practica_1_II2122/img/avion.png)  
+![avion](./img/avion.png)  
 
-![rollerball](../Practica_1_II2122/img/rollerball.png)
+![rollerball](./img/rollerball.png)
 
 + Objeto libre de la Asset Store que no sea de los Standard Assets.
 
 Aqui he incluido el dragón de un Asset llamado `Dragon Bot`.
-![dragon](../Practica_1_II2122/img/dragon.png)
+![dragon](./img/dragon.png)
 
 + Terreno.
 
 He creado un terreno utilizando las herramienta que trae Unity  
 
-![terreno](../Practica_1_II2122/img/terreno.png)
+![terreno](./img/terreno.png)
 
 + La escena debe tener 2 fuentes de luz.
 
@@ -67,11 +67,11 @@ La escena cuenta con 3 iluminaciones: 1 direccional y otras 2 de punto.
   
 Aqui he decidido usar a Ethan de la standard assets.  
 
-![ethan](../Practica_1_II2122/img/ethan.png)  
+![ethan](./img/ethan.png)  
 
-3. Después de crear los objetos, a cada uno se les ha creado y colocado una etiqueta que los identifica con una palabra única. Ejemplo:
+1. Después de crear los objetos, a cada uno se les ha creado y colocado una etiqueta que los identifica con una palabra única. Ejemplo:
 
-![tag](../Practica_1_II2122/img/tag.png)  
+![tag](./img/tag.png)  
 
 
 4. Por último se ha creado un script que escriba en la consola los objetos que se han utilizado, un identificador numérico que le asignes a cada uno de los objetos y el valor de un contador que se actualiza en cada iteración para cada objeto. 
@@ -105,22 +105,22 @@ De la siguiente manera:
 
 1. Buscamos en el inspector el botón  `Add Component`
 
-![addScript](../Practica_1_II2122/img/addScript1.png)
+![addScript](./img/addScript1.png)
 
 2. Seleccionamos `New Script`
 
-![addScript](../Practica_1_II2122/img/addScript2.png)
+![addScript](./img/addScript2.png)
 
 3. Escribimos el nombre del script que queremos crear y le damos al botón `Create and Add`.
 
-![addScript](../Practica_1_II2122/img/addScript3.png)
+![addScript](./img/addScript3.png)
   
 Luego, una vez creado podemos abrir el script y editarlo, por ejemplo, usando Visual Studio Code.
 
 Con esto hemos obtenido el siguiente resultado en consola:
 
-![consola1](../Practica_1_II2122/img/consola1.png)  
+![consola1](./img/consola1.png)  
 
-![consola1](../Practica_1_II2122/img/consola2.png)
+![consola1](./img/consola2.png)
 
 Podemos observar el como cada objeto actualiza su contador correctamente mostrando también su nombre y su etiqueta.
